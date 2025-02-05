@@ -71,7 +71,7 @@ function App() {
     if (!isTrading) return;
 
     const interval = setInterval(() => {
-      // In a real application, this would fetch new data from the API
+      // In a real application, this would fetch new data from API
       console.log('Refreshing data...');
     }, 5000);
 
