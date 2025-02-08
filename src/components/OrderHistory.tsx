@@ -10,7 +10,7 @@ export function OrderHistory({ orders }: OrderHistoryProps) {
   const getStatusIcon = (status: Order['status']) => {
     switch (status) {
       case 'FILLED':
-        return <CheckCircle className="w-4 h-4 text-green-500" />;
+        return <CheckCircle className="w-4 h-5 text-green-500" />;
       case 'CANCELLED':
         return <XCircle className="w-4 h-4 text-red-500" />;
       case 'PENDING':
